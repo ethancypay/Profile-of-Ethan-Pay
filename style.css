@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  /* border: 1px dashed grey; */
+}
+
+body {
+  display: block;
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+h2 {
+  margin: 0 0 0.8rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  display: block;
+  margin-bottom: 1em;
+}
+
+a {
+  /* color: #2C1320; */
+}
+
+ul {
+  list-style: none;
+}
+
+.profile_pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #A7ADC6;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #2C1320;
+  padding: 10px 24px;
+}
+
+.button_mt {
+  margin-top: 1em;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 14px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card_mb {
+  margin-bottom: 40px;
+}
+
+.sm_icons > li {
+  font-size: 2rem;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
